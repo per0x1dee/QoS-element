@@ -6,11 +6,11 @@
 - Run `premake5 vs2022` or use the delivered `premake5.bat`.
 - Build via solution file in `build\d3d9-wrapper.sln`.
 
-## Premake arguments
+## Credits
+Main DLL - [d3d9-wrapper](https://github.com/ThirteenAG/d3d9-wrapper)</br>
+Research - [iw4x-sp](https://github.com/XLabsProject/iw4x-sp)</br>
+Research - [iw3x0](https://github.com/xoxor4d/iw3xo-dev)</br>
 
-| Argument                    | Description                                    |
-|:----------------------------|:-----------------------------------------------|
-| `--copy-to=PATH`            | Optional, copy the DLL to a custom folder after build, define the path here if wanted. |
 
 ## Disclaimer
 
