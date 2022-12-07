@@ -1,10 +1,11 @@
 # Quantum of Solace: "Client"
-"Client" made to improve on the horrible PC port of James Bond: Quantum of Solace.
+"Client" made to improve on the horrible PC port of James Bond: Quantum of Solace, for the multiplayer portion of the game.
 
-## How to compile
+## How to compile & run
 
 - Run `premake5 vs2022` or use the delivered `premake5.bat`.
 - Build via solution file in `build\d3d9-wrapper.sln`.
+- Copy `d3d9.dll` and `d3d9.ini` to the game's folder.
 
 ## Credits
 Main DLL - [d3d9-wrapper](https://github.com/ThirteenAG/d3d9-wrapper)</br>
