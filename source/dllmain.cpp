@@ -917,6 +917,12 @@ bool WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
             strcat_s(path, "\\d3d9.dll");
             d3d9dll = LoadLibraryA(path);
 
+            //Allocate console
+            AllocConsole();
+            freopen_s((FILE**)stdin, "CONIN$", "r", stdin);
+            freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
+            SetConsoleTitleA("per0x1dee QoS Debug Output");
+
             if (d3d9dll)
             {
                 // Get function addresses
