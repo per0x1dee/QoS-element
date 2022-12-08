@@ -1,6 +1,16 @@
 # Quantum of Solace: "Client"
 "Client" made to improve on the horrible PC port of James Bond: Quantum of Solace, for the multiplayer portion of the game.
 
+## (Current) Features
+- Allows for windowed mode
+- Allocates external DVAR console
+
+## Planned Features
+- FPS Unlock
+- Ingame Console (~)
+- Allow GSC loading via for example fs_game
+- Allow .menu loading
+
 ## How to compile & run
 
 - Run `premake5 vs2022` or use the delivered `premake5.bat`.
