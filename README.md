@@ -6,10 +6,9 @@
 - Allocates external DVAR console
 
 ## Planned Features
-- FPS Unlock
+- FPS Unlock (reimplement working `com_maxfps
 - Ingame Console (~)
-- Allow GSC loading via for example fs_game
-- Allow .menu loading
+- Allow Rawfile loading via for example fs_game (.GSC & .menu primarily)
 
 ## How to compile, setup, and run
 
