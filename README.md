@@ -11,7 +11,7 @@
 - Allow GSC loading via for example fs_game
 - Allow .menu loading
 
-## How to compilem, setup, and run
+## How to compile, setup, and run
 
 - Run `premake5 vs2022` or use the delivered `premake5.bat`.
 - Build via solution file in `build\d3d9-wrapper.sln`.
@@ -22,6 +22,7 @@
 ## Credits
 Main DLL - [d3d9-wrapper](https://github.com/ThirteenAG/d3d9-wrapper)</br>
 Research - [iw4x-sp](https://github.com/XLabsProject/iw4x-sp)</br>
+Research - [iw4x](https://github.com/XLabsProject/iw4x-client)</br>
 Research - [iw3x0](https://github.com/xoxor4d/iw3xo-dev)</br>
 
 
