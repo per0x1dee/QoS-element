@@ -10,6 +10,7 @@ A hobby project modification made to improve on the horrible PC port of James Bo
 - Ingame Console GUI w/keybind (~)
 - Allow Simple GSC/MENU rawfile loading
 - Fix the horrendous looking way-too-close viewmodel FOV
+- Reimplement proper dvars for windowed/fullscreen instead of a D3D9 workaround
 
 ## Features i'd like to work on but likely cant
 - Gradual custom zone support with support gradually adding additional rawfiles such as anims, weapons, and maps
