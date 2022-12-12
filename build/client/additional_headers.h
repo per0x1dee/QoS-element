@@ -16,3 +16,4 @@
 #include "structs.h"
 #include "symbols.h"
 #include "client.h"
+#include "functions.h"

@@ -20,6 +20,7 @@
 #include "helpers.h"
 
 #include "..\build\client\additional_headers.h"
+#include <detours.h>
 
 #pragma comment(lib, "d3dx9.lib")
 #pragma comment(lib, "winmm.lib") // needed for timeBeginPeriod()/timeEndPeriod()
@@ -923,7 +924,7 @@ bool WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
             AllocConsole();
             //freopen_s((FILE**)stdin, "CONIN$", "r", stdin);
             freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
-            SetConsoleTitleA("per0x1dee QoS Debug Output");
+            SetConsoleTitleA("QoS: Element - Debug Output");
 
             //Working path + libraries
             HMODULE hMods[1024];
@@ -936,9 +937,18 @@ bool WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
             printf_s("Current path: %s", szFileName);
 
             //Horrible way of allocating console
-            CreateThread(nullptr, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(ShowDevConsole), nullptr, 0, 0);
+            //CreateThread(nullptr, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(ShowDevConsole), nullptr, 0, 0);
 
-            memset((GetModuleHandleA("jb_mp_s.dll") + 0x711AF8 + 0xA), 0x00, 1); //Doesn't actually set the FPS Cap to 0. (Pointer 0x711AF8 + decimal 10
+            //Initialize detours
+            DetourTransactionBegin();
+
+            //Allocate hooks, this is going to be a mess...
+            DetourAttach(&(LPVOID&)R_EndFrame, R_EndFrame_hk);
+
+            //End init detours
+            DetourTransactionCommit();
+            
+            //memset((GetModuleHandleA("jb_mp_s.dll") + 0x711AF8 + 0xA), 0x00, 1); //Doesn't actually set the FPS Cap to 0. (Pointer 0x711AF8 + decimal 10
 
             if (d3d9dll)
             {

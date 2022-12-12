@@ -245,6 +245,7 @@
     <ClInclude Include="..\source\iathook.h" />
     <ClInclude Include="client\additional_headers.h" />
     <ClInclude Include="client\client.h" />
+    <ClInclude Include="client\functions.h" />
     <ClInclude Include="client\structs.h" />
     <ClInclude Include="client\symbols.h" />
   </ItemGroup>
@@ -267,6 +268,7 @@
     <ClCompile Include="..\source\InterfaceQuery.cpp" />
     <ClCompile Include="..\source\dllmain.cpp" />
     <ClCompile Include="client\client.cpp" />
+    <ClCompile Include="client\functions.cpp" />
     <ClCompile Include="client\symbols.cpp" />
   </ItemGroup>
   <ItemGroup>
