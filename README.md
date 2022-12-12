@@ -16,7 +16,7 @@
 - Build via solution file in `build\d3d9-wrapper.sln`.
 - Open `d3d9.ini` using a text editor and edit the INI's ``AppEXE`` argument to: ``JB_LiveEngine_s.exe``
 - Copy `d3d9.dll` and `d3d9.ini` to the game's folder.
-- Create a shortcut to the game, and within the ``Target`` line, add ``-novids -multi`` at the end.
+- Create a shortcut to the game's launcher: `"JB_Launcher_s.exe"`, and within the ``Target`` line, add ``-novids -multi`` at the end.
 
 ## Credits
 Main DLL - [d3d9-wrapper](https://github.com/ThirteenAG/d3d9-wrapper)</br>
