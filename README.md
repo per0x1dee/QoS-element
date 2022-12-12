@@ -12,7 +12,7 @@ A hobby project modification made to improve on the horrible PC port of James Bo
 - Fix the horrendous looking way-too-close viewmodel FOV
 - Reimplement proper dvars for windowed/fullscreen instead of a D3D9 workaround
 
-## Features i'd like to work on but likely cant
+## Hopeful Features
 - Gradual custom zone support with support gradually adding additional rawfiles such as anims, weapons, and maps
 - Custom launcher
 - Removal of GFWL and re-implementing `connect` command to get actual multiplayer back
