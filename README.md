@@ -6,9 +6,15 @@ A hobby project modification made to improve on the horrible PC port of James Bo
 - Allocates external DVAR console
 
 ## Planned Features
-- FPS Unlock (reimplement working `com_maxfps
-- Ingame Console (~)
-- Allow Rawfile loading via for example fs_game (.GSC & .menu primarily)
+- FPS Unlock (reimplement working `com_maxfps`)
+- Ingame Console GUI w/keybind (~)
+- Allow Simple GSC/MENU rawfile loading
+
+## Features i'd like to work on but likely cant
+- Gradual fully custom zone files with support for additional rawfiles such as anims, weapons, and maps
+- Custom launcher
+- Removal of GFWL and re-implementing `connect` command to get actual multiplayer back
+- Cross-porting from IW3/4->QoS
 
 ## How to compile, setup, and run
 
