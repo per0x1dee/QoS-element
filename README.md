@@ -11,6 +11,7 @@ A hobby project modification made to improve on the horrible PC port of James Bo
 - Allow Simple GSC/MENU rawfile loading
 - Fix the horrendous looking way-too-close viewmodel FOV
 - Reimplement proper dvars for windowed/fullscreen instead of a D3D9 workaround
+- Rework entire project into a "bootstrap" so i can force stuff pre-game load.
 
 ## Hopeful Features
 - Gradual custom zone support with support gradually adding additional rawfiles such as anims, weapons, and maps
