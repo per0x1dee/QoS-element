@@ -6,7 +6,7 @@ A hobby project modification made to improve on the horrible PC port of James Bo
 - Allocates external DVAR console
 
 ## Planned Features
-- FPS Unlock (reimplement working `com_maxfps`)
+- FPS Unlock (reimplement working (`com_maxfps`)
 - Ingame Console GUI w/keybind (~)
 - Allow Simple GSC/MENU rawfile loading
 - Fix the horrendous looking way-too-close viewmodel FOV
