@@ -1,4 +1,4 @@
-# Quantum of Solace: "Client"
+# Quantum of Solace: Element
 A hobby project modification made to improve on the horrible PC port of James Bond: Quantum of Solace, for the multiplayer portion of the game.
 
 ## (Current) Features
