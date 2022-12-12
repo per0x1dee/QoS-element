@@ -1,5 +1,5 @@
 # Quantum of Solace: "Client"
-"Client" made to improve on the horrible PC port of James Bond: Quantum of Solace, for the multiplayer portion of the game.
+A hobby project modification made to improve on the horrible PC port of James Bond: Quantum of Solace, for the multiplayer portion of the game.
 
 ## (Current) Features
 - Allows for windowed mode
