@@ -9,6 +9,7 @@ A hobby project modification made to improve on the horrible PC port of James Bo
 - FPS Unlock (reimplement working `com_maxfps`)
 - Ingame Console GUI w/keybind (~)
 - Allow Simple GSC/MENU rawfile loading
+- Fix the horrendous looking way-too-close viewmodel FOV
 
 ## Features i'd like to work on but likely cant
 - Gradual fully custom zone files with support for additional rawfiles such as anims, weapons, and maps
