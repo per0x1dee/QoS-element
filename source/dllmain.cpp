@@ -937,7 +937,7 @@ bool WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
             printf_s("Current path: %s", szFileName);
 
             //Horrible way of allocating console
-            //CreateThread(nullptr, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(ShowDevConsole), nullptr, 0, 0);
+            CreateThread(nullptr, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(ShowDevConsole), nullptr, 0, 0);
 
             //Initialize detours
             DetourTransactionBegin();

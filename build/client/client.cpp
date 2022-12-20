@@ -25,6 +25,9 @@ void checkKeys()
 	if (wait > 2)
 	{
 		Dvar_SetBoolByName("monkeytoy", 0);
+		Dvar_SetBoolByName("com_maxfps", 999);
+		Dvar_SetBoolByName("r_vsync", 0);
+		Dvar_SetBoolByName("r_fullscreen", 0); //Idk if these actually set as the only one i can test is maxfps
 		printf("monkeytoy\n\n");
 	}
 
